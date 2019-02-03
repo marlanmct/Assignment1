@@ -12,8 +12,8 @@
 #define SIMPLEHAMMER_H
 
 /**
- * Defines the behavior of a simple hammer (hitpoint = 40, ignores 20% of 
- * armor points)
+ * Defines the behavior of a simple hammer (hitpoint = 25, if the armor is less than 30, the hammer
+ *will ignore all the armor points.
  */
 class SimpleHammer : public Weapon {
 public:
