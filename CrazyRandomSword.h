@@ -23,10 +23,10 @@ public:
     CrazyRandomSword() : Weapon("Crazy Random Sword", rand()%94 + 7) { //Calls Weapon(name, hitpoints) constructor with values Crazy Random Sword and rand()%94+7
     }
 
-    virtual ~CommonSpear() {};
+    virtual ~CrazyRandomSword() {};
 
     virtual double hit(double armor);
 
 };
 
-#endif /* COMMONSPEAR_H */
+#endif /* CRAZYRANDOMSWORD_H */
