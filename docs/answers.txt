@@ -1,0 +1,66 @@
+(a)
+Marlans-iMac:Assignment1 Marlan$ git push origin master
+Counting objects: 7, done.
+Delta compression using up to 8 threads.
+Compressing objects: 100% (5/5), done.
+Writing objects: 100% (7/7), 782 bytes | 782.00 KiB/s, done.
+Total 7 (delta 2), reused 0 (delta 0)
+remote: Resolving deltas: 100% (2/2), completed with 1 local object.
+To https://github.com/marlanmct/Assignment1.git
+   3d373c9..77491ee  master -> master
+
+(b)
+5 commits by myself and Javier
+git log
+
+(c)
+Date:   Thu Jan 10 16:45:38 2019 -0500
+git log --follow .gitignore
+
+(d)
+Branches
+1)allow for easier collaboration by giving teams/individuals the ability to
+  separate their work from the work of others until it is complete
+2)allows for experimental/incomplete/new features to be developed and tracked
+  alongside the stable code of a program without causing that stable codebase
+  to regress in functionality while new features are as of yet complete
+
+(e)
+git log shows the commit logs of a project
+git status
+
+(f)
+git log --follow <file path>
+
+(g)
+git log --grep=file
+
+(h)
+Inheritance- allows for a class to derive the properties and methods of another
+  class aka its "parent" while introducing new properties and methods specific
+  to the child class. for example the sedan class could be derived from the
+  vehicle class
+Polymorphism- the ability for a programming language to process objects
+  differently depending on their type. For example if Shape is a parent class of
+  Square and Circle, and the area() method is defined in every class, then
+  polymorphism allows aSquare.area() and aCircle.area() to each return the
+  correct calculation in each instance.
+
+(i)
+The Integration Manager pulls from separate developer repos which he/she will
+  then integrate and push to a central "blessed" repo. The integration manager
+  is responsible for integrating the entire codebase.
+
+The Dictator and Lieutenants model has groups of developers push to a specific
+  lieutenant's repo, and that Lt. then integrated the corresponding code. The LTs
+  push their integrated code to a Dictator's repo who integrates that code. This
+  model is different in that each developer does not have their own repo to push
+  to. Additionally, there are 2 steps of integration (dev>Lt and Lt>Dictator)
+  unlike the single integration step of the the Integration manager model.
+
+(j)
+A team of 100 would benefit from the Dictator model because it allows for easier
+integration. If 100 people independently attempt to integrate their code, the
+chance it will happen without serious conflicts is low, while in the Dictator
+model there are 2 integration steps allowing for a smoother process where issues
+can be recognized earlier and fixed at a lower level.  
