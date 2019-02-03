@@ -45,6 +45,11 @@ Polymorphism- the ability for a programming language to process objects
   Square and Circle, and the area() method is defined in every class, then
   polymorphism allows aSquare.area() and aCircle.area() to each return the
   correct calculation in each instance.
+Encapsulation- the approach of hiding properties of an object and the methods
+  which manipulate them from an outside user, and only allowing that user to
+  interact with the object through a select set of public methods. the goal of
+  the approach is to (nearly) guarantee that an object remains in a valid state
+  during it's entire lifetime.
 
 (i)
 The Integration Manager pulls from separate developer repos which he/she will
@@ -63,4 +68,4 @@ A team of 100 would benefit from the Dictator model because it allows for easier
 integration. If 100 people independently attempt to integrate their code, the
 chance it will happen without serious conflicts is low, while in the Dictator
 model there are 2 integration steps allowing for a smoother process where issues
-can be recognized earlier and fixed at a lower level.  
+can be recognized earlier and fixed at a lower level.
