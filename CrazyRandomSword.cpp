@@ -1,5 +1,5 @@
 /*
- * File:   SimpleHammer.cpp
+ * File:   CrazyRandomSword.cpp
  * Author: Marlan <mm05f@my.fsu.edu>
  *
  * Created on February 3, 2019, 4:15 PM
@@ -9,7 +9,7 @@
 
 double CrazyRandomSword::hit(double armor) {
     double damage = 0;
-    
+
     if(armor <= 6)
       damage = hitpoints - (armor - 2);
     else
