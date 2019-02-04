@@ -29,6 +29,7 @@ void simulateWeapon(Weapon * weapon, double armor) {
  *
  */
 int main(int argc, char** argv) {
+    srand(time(0));
 
     double armor = 29;
 
