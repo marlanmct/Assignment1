@@ -13,7 +13,7 @@
 
 /**
  * Defines the behavior of an odd sword (hitpoint = 69, ignores all
- * armor points if armor value is odd, else ignores none of it)
+ * armor points if armor value is odd, else ignores 50% of it)
  */
 class OddSword : public Weapon {
 public:
