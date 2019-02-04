@@ -11,7 +11,7 @@ double OddSword::hit(double armor) {
     double damage = 0;
 
     if(armor % 2 == 0)
-      damage = hitpoints - (armor * .5);
+      damage = hitPoints - (armor * .5);
     else
       damage = hitPoints;
     if (damage < 0) {
