@@ -8,16 +8,18 @@
 #include <string>
 #include <ctime>
 #include <cstdlib>
+#include <cmath>
 #include "Weapon.h"
 
 #ifndef CRAZYRANDOMSWORD_H
 #define CRAZYRANDOMSWORD_H
-srand((unsignedint)time(0))
+
 /**
  * Defines the behavior of a crazy random sword (hitpoint = rand int 7-100,
  * ignores rand amount of  armor points 2 to .33(armor weapon hits))
  */
 class CrazyRandomSword : public Weapon {
+
 public:
 
     CrazyRandomSword() : Weapon("Crazy Random Sword", rand()%94 + 7) { //Calls Weapon(name, hitpoints) constructor with values Crazy Random Sword and rand()%94+7
