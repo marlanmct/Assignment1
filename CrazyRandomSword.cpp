@@ -9,7 +9,7 @@
 
 double CrazyRandomSword::hit(double armor) {
     double damage = 0;
-    int third = ;
+    
     if(armor <= 6)
       damage = hitpoints - (armor - 2);
     else
