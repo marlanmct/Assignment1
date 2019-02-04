@@ -27,7 +27,7 @@ Branches
 
 (e)
 git log shows the commit logs of a project
-git status
+git status paths that have differences between the index file and the current head commit
 
 (f)
 git log --follow <file path>
@@ -69,3 +69,10 @@ integration. If 100 people independently attempt to integrate their code, the
 chance it will happen without serious conflicts is low, while in the Dictator
 model there are 2 integration steps allowing for a smoother process where issues
 can be recognized earlier and fixed at a lower level.
+
+RoleGame OOP principles
+  The game uses both polymorphism and encapsulation. An example of polymorphism
+  is seen in the hit method which works properly for all of the weapons created
+  even though they are objects of different derived classes. An example of
+  encapsulation is seen in the weapon class with the name and hitpoints properties
+  marked as protected.
