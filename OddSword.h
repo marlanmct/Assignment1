@@ -12,8 +12,8 @@
 #define ODDSWORD_H
 
 /**
- * Defines the behavior of an odd sword (hitpoint = 69, ignores all
- * armor points if armor value is odd, else ignores 50% of it)
+ * Defines the behavior of an odd sword (hitpoint = 69, ignores half
+ * armor points if armor value is > 15, else it ignores 10%)
  */
 class OddSword : public Weapon {
 public:
